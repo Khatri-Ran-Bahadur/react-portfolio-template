@@ -7,6 +7,7 @@ import About from "./pages/About/About";
 import Blogs from "./pages/Blogs/Blogs";
 import Services from "./pages/Services/Services";
 import Contactus from "./pages/Contactus/Conatctus";
+import Singlepage from "./pages/Singlepage/Singlepage";
 
 const routes = () => {
   return (
@@ -17,6 +18,7 @@ const routes = () => {
       <Route path="/blog" exact component={Blogs} />
       <Route path="/services" exact component={Services} />
       <Route path="/contact" exact component={Contactus} />
+      <Route path="/singlepage" exact component={Singlepage} />
     </Switch>
   );
 };
